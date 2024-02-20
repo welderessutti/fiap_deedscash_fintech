@@ -1,0 +1,75 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+:root {
+    --blue-1: #15038C;
+    --blue-2: #1D04BF;
+    --blue-3: #2E34A6;
+    --blue-4: #04D9D9;
+    --grey-1: #CEE1F2;
+    --white-1: #E8F0F8;
+    --red-1: #EB1E23;
+    --green-1: #60DD68;
+}
+
+.bg-my-blue-1 {
+    background-color: var(--blue-1);
+}
+
+.bg-my-blue-2 {
+    background-color: var(--blue-2);
+}
+
+.bg-my-blue-3 {
+    background-color: var(--blue-3);
+}
+
+.bg-my-blue-4 {
+    background-color: var(--blue-4);
+}
+
+.bg-my-grey-1 {
+    background-color: var(--grey-1);
+}
+
+.bg-my-white-1 {
+    background-color: var(--white-1);
+}
+
+.txt-my-blue-1 {
+    color: var(--blue-1);
+}
+
+.txt-my-blue-2 {
+    color: var(--blue-2);
+}
+
+.txt-my-blue-3 {
+    color: var(--blue-3);
+}
+
+.txt-my-blue-4 {
+    color: var(--blue-4);
+}
+
+.txt-my-grey-1 {
+    color: var(--grey-1);;
+}
+
+.txt-my-white-1 {
+    color: var(--white-1);
+}
+
+.txt-my-red-1 {
+    color: var(--red-1);
+}
+
+.txt-my-green-1 {
+    color: var(--green-1);
+}
+
+.border-my-blue-3 {
+    border-color: var(--blue-3);
+}

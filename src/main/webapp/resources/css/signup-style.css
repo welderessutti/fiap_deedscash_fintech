@@ -1,0 +1,54 @@
+.profile-icon {
+    width: 6.25rem ;
+}
+
+.plus-icon {
+    width: 1.90rem;
+}
+
+.plus-icon:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+form label, option, a {
+    font-size: .75rem;
+}
+
+.border-my-blue-3:hover {
+    background-color: var(--white-1);
+}
+
+.home-link:hover,
+.terms-link:hover {
+    color: var(--blue-4)
+}
+
+.agree-checkbox:hover {
+    color: var(--blue-2);
+}
+
+.cancel-btn:hover {
+    background-color: var(--blue-1);
+    color: var(--grey-1);
+    transition: 0.5s;
+}
+
+.register-btn:hover {
+    background-color: var(--blue-4);
+    color: var(--blue-1);
+    transition: 0.5s;
+}
+
+@media (min-width: 992px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    form label, option, a {
+        font-size: 1rem;
+    }
+}
